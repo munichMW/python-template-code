@@ -1,0 +1,18 @@
+def check_integer_text():
+  try:
+    int(input("Text: "))
+    print("It is an integer.")
+  except ValueError:
+    print("It is not an integer.")
+    
+check_integer_text()
+
+
+def check_integer(n):
+  try:
+    int(n)
+    print("It is an integer.")
+  except ValueError:
+    print("It is not an integer.")
+    
+check_integer()
