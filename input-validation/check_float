@@ -1,0 +1,18 @@
+def check_float_text():
+  try:
+    float(input("Text: "))
+    print("It is an float.")
+  except ValueError:
+    print("It is not an float.")
+    
+check_float_text()
+
+
+def check_float(n):
+  try:
+    int(n)
+    print("It is an float.")
+  except ValueError:
+    print("It is not an float.")
+    
+check_float(50)
