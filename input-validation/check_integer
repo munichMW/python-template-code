@@ -15,4 +15,4 @@ def check_integer(n):
   except ValueError:
     print("It is not an integer.")
     
-check_integer()
+check_integer(50)
